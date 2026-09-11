@@ -1,0 +1,6 @@
+user_id,evaluated_month,mtd_spend,projected_month_end_spend,historical_avg_baseline,shortfall_risk_flag,projected_overspend_pct
+user_1,2026-07,16176.83,16716.06,25299.8,0,-33.93
+user_2,2026-07,19170.14,19809.14,28558.78,0,-30.64
+user_3,2026-07,15951.88,16483.61,31564.03,0,-47.78
+user_4,2026-07,20692.37,21382.12,20649.17,0,3.55
+user_5,2026-07,16757.3,17912.98,25438.48,0,-29.58
