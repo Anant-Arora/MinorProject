@@ -1,11 +1,11 @@
-from sqlalchemy import Column, Integer, String, Float, Date
-from app.database import Base
+"""
+Compatibility import for the Transaction model.
 
-class Transaction(Base):
-    __tablename__ = "transactions"
+The actual SQLAlchemy Transaction model is defined only once in
+app.models.models. This file re-exports it so older imports continue
+to work without registering the transactions table twice.
+"""
 
-    id = Column(Integer, primary_key=True, index=True)
-    description = Column(String)
-    amount = Column(Float)
-    category = Column(String, nullable=True)
-    date = Column(Date)
+from app.models.models import Transaction
+
+__all__ = ["Transaction"]

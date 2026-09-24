@@ -1,0 +1,4 @@
+user_id,date,description,amount,is_subscription,is_price_creep,is_anomaly,merchant_clean,user_median_amount,user_std_amount,amount_zscore,predicted_anomaly
+real_user_1,2026-06-15,Zomato Media Pvt,450.0,0,0,0,Zomato Media Pvt,620.5,174.51528108831425,-0.9769918080338059,1
+real_user_1,2026-06-16,Swiggy,620.5,0,0,0,Swiggy,620.5,174.51528108831425,0.0,0
+real_user_1,2026-06-17,NETFLIX.COM,799.0,0,0,0,NETFLIX.COM,620.5,174.51528108831425,1.0228330658887645,0
